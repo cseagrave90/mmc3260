@@ -58,9 +58,18 @@ footer {
 
 }
     
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 600px) {
     
     body {
         padding: 3%;
         }
-    }
+        
+        #header {
+            height: auto;
+        }
+        
+        h1 {
+            font-size: 14px;
+            
+        }
+    
